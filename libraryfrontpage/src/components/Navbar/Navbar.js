@@ -6,7 +6,15 @@ const Navbar = () => {
             <div className={styles.Nav}>
                 <div className={styles.homebtnconatainer}>
                     <button>Home</button>
-                    <h1>MyLibrary</h1>
+                   
+                  <img src='libraryfrontpage/to/public/logo.jpg'
+                 
+                 
+                 style={{width:'20%',height:'10vh'}}
+                 />
+                       
+
+                    <h1>MyLibrary</h1> 
                 </div>
 
                 <button>Admin</button>
@@ -15,5 +23,7 @@ const Navbar = () => {
         </>
     )
 }
+
+
 
 export default Navbar
