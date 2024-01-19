@@ -1,20 +1,14 @@
 import React from 'react'
 import styles from './navbar.module.css';
+import { FaBookOpen } from "react-icons/fa6";
 const Navbar = () => {
     return (
         <>
             <div className={styles.Nav}>
                 <div className={styles.homebtnconatainer}>
                     <button>Home</button>
-                   
-                  <img src='libraryfrontpage/to/public/logo.jpg'
-                 
-                 
-                 style={{width:'20%',height:'10vh'}}
-                 />
-                       
-
-                    <h1>MyLibrary</h1> 
+                    
+                    <h1 className={styles.iconTitle}><span><FaBookOpen /></span>MyLibrary</h1> 
                 </div>
 
                 <button>Admin</button>

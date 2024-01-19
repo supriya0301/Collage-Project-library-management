@@ -4,7 +4,7 @@ const UserGuide = () => {
   return (
     <>
       <div className={styles.usergiudeContainer}>
-        UserGuide
+      <button>Admin</button>
      </div>
     </>
     

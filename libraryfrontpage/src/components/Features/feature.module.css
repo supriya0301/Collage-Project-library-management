@@ -1,6 +1,5 @@
 .FeatureContainer{
     width: 100%;
-    height: 50%;
-    border: 2px solid red;
+    height: 61%;
     display: flex;
 }
