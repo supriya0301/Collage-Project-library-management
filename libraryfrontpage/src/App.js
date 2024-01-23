@@ -1,25 +1,23 @@
 import React from 'react'
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
-import Features from './components/Features/Features';
-import UserGuide from './components/UserGuide/UserGuide';
 import BookAnimation from './components/BookAnimation/BookAnimation';
+import About from './components/AboutLibrary/About'
 const App = () => {
   return (
     <>
       <div>
         <Navbar />
         <div className='homeContainer'>
-          <div className='featureUserGuideCnt'>
-            <Features />
-            <UserGuide />
+          <div className='aboutUserGuideCnt'>
+          <About/>
           </div>
           <div className='ImageContainer'>
              <BookAnimation/>
           </div>
         </div>
-
       </div>
+     
     </>
 
   )
